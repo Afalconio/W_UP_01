@@ -64,6 +64,7 @@ The higher height of the skilled position box indicates that skilled players are
 favstats(pushups~position,data=mydata)
 ```
 
+The average number of pushups that a line player can perform is about a third of the average number of pushups that a skill player can perform.
 
 ## Inferential Results
 
