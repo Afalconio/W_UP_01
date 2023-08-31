@@ -44,7 +44,7 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r include=TRUE,echo=FALSE}
 ggplot(data = mydata, aes(x = pushups, y = position)) +
   geom_boxplot() +
-  labs(title = "Pushups by position", x = "Pushups", y = "Position") +
+  labs(title = "Pushups by Position", x = "Pushups", y = "Position") +
   coord_flip() +
   theme(plot.title = element_text(size = 18, hjust = 0.5)) # Adjust title size and position
 ```
